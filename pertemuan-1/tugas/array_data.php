@@ -1,6 +1,6 @@
 <?php
 $m_fruits = [
-  ["id" => 111, "name" => "Apel", "color" => "Hijau", "stock" => 1853, "price" => 7000, "description" => "Apel enak untuk dijadikan"],
+  ["id" => 111, "name" => "Apel", "color" => "Hijau", "stock" => 1853, "price" => 7000, "description" => "Apel enak untuk dibawa piknik"],
   ["id" => 112, "name" => "Rambutan", "color" => "Merah", "stock" => 1335, "price" => 1000, "description" => "Buah yang sangat manis"],
   ["id" => 113, "name" => "Durian", "color" => "Hijau Tua", "stock" => 53, "price" => 25000, "description" => "Buah dengan bau yang menyengat tapi rasanya mantap"]
 ];
