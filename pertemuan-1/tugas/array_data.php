@@ -1,9 +1,15 @@
 <?php
-$m_fruits = [
-  ["id" => 111, "name" => "Apel", "color" => "Hijau", "stock" => 1853, "price" => 7000, "description" => "Apel enak untuk dibawa piknik"],
-  ["id" => 112, "name" => "Rambutan", "color" => "Merah", "stock" => 1335, "price" => 1000, "description" => "Buah yang sangat manis"],
-  ["id" => 113, "name" => "Durian", "color" => "Hijau Tua", "stock" => 53, "price" => 25000, "description" => "Buah dengan bau yang menyengat tapi rasanya mantap"]
-];
+  /*  
+    Task 1
+    Buatlah array multidimensi yang berisi data buah
+    seperti nama, warna, stok, harga dan deskripsi
+  */
+  $number = 1;
+  $m_fruits = [
+    ["name" => "Apel", "color" => "Hijau", "stock" => 1853, "price" => 7000, "description" => "Apel enak untuk dibawa piknik"],
+    ["name" => "Rambutan", "color" => "Merah", "stock" => 1335, "price" => 1000, "description" => "Buah yang sangat manis"],
+    ["name" => "Durian", "color" => "Hijau Tua", "stock" => 53, "price" => 25000, "description" => "Buah dengan bau yang menyengat tapi rasanya mantap"]
+  ];
 ?>
 
 <!DOCTYPE html>
@@ -34,19 +40,20 @@ $m_fruits = [
 
       <tbody>
         <?php
-        /* Task 2
+          /*  
+            Task 2
             Tampilkan data array tersebut disini dan buatlah menjadi sebuah table
           */
-        foreach ($m_fruits as $fruit) {
-          echo '<tr>';
-          echo '<td>' . $fruit['id'] . '</td>';
-          echo '<td>' . $fruit['name'] . '</td>';
-          echo '<td>' . $fruit['color'] . '</td>';
-          echo '<td>' . $fruit['stock'] . '</td>';
-          echo '<td>' . $fruit['price'] . '</td>';
-          echo '<td>' . $fruit['description'] . '</td>';
-          echo '</tr>';
-        }
+          foreach ($m_fruits as $fruit) {
+            echo '<tr>';
+            echo '<td>' . $number++ . '</td>';
+            echo '<td>' . $fruit['name'] . '</td>';
+            echo '<td>' . $fruit['color'] . '</td>';
+            echo '<td>' . $fruit['stock'] . '</td>';
+            echo '<td>' . $fruit['price'] . '</td>';
+            echo '<td>' . $fruit['description'] . '</td>';
+            echo '</tr>';
+          }
         ?>
       </tbody>
     </table>
