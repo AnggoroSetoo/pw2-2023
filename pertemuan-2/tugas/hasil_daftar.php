@@ -41,7 +41,7 @@
                     /* Task 2
 				    Tangkap dan tampilkan data dari form_daftar.
 						Berikan error handling
-				  */
+				    */
 
                     if (isset($_POST['proses'])) {
                         // Variable
@@ -51,7 +51,6 @@
                         $telepon = $_POST['telepon'];
 
                         $number = 3;
-                    }
                     ?>
                     <!-- Menampilkan Data -->
                     <tr>
@@ -61,7 +60,7 @@
                         <td><?= $alamat ?></td>
                         <td><?= $telepon ?></td>
                     </tr>
-
+                    <?php } ?>
 
                 </tbody>
             </table>
