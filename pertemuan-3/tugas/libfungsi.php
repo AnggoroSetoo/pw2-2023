@@ -30,7 +30,7 @@
 		* total nilai <= 69 maka C
 		* total nilai <= 55 maka D
 		* total nilai <= 35 maka E
-		* selain itu maka I
+		* selain itu maka F
 		*/ 
 
         if($rerata <= 100 ){
