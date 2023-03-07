@@ -1,7 +1,3 @@
-<!-- Task 1
-	Rapihkan dan buatlah form agar bisa mengirim data
-	Gunakan form request POST
--->
 <!DOCTYPE html>
 <html>
 

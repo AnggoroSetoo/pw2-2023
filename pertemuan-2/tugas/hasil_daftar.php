@@ -38,13 +38,8 @@
                     </tr>
 
                     <?php
-                    /* Task 2
-				    Tangkap dan tampilkan data dari form_daftar.
-						Berikan error handling
-				    */
 
                     if (isset($_POST['proses'])) {
-                        // Variable
                         $nama_siswa = $_POST['nama_lengkap'];
                         $email = $_POST['email'];
                         $alamat = $_POST['alamat'];
@@ -52,7 +47,7 @@
 
                         $number = 3;
                     ?>
-                    <!-- Menampilkan Data -->
+
                     <tr>
                         <td><?= $number++ ?></td>
                         <td><?= $nama_siswa ?></td>
@@ -60,6 +55,7 @@
                         <td><?= $alamat ?></td>
                         <td><?= $telepon ?></td>
                     </tr>
+                    
                     <?php } ?>
 
                 </tbody>
