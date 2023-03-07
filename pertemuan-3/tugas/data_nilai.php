@@ -82,17 +82,18 @@ include_once 'header.php';
                 $predikat = predikat($rerata);
 
                 ?>
-            <td><?= $number++ ?></td>
-            <td><?= $namaLengkap ?></td>
-            <td><?= $keteranganMatkul ?></td>
-            <td><?= $nilaiUTS ?></td>
-            <td><?= $nilaiUAS ?></td>
-            <td><?= $nilaiPraktikum ?></td>
-            <td><?= $rerata?></td>
-            <td><?= $grade ?></td>
-            <td><?= $predikat ?></td>
-            <td><?= $kelulusan ?></td>
-
+            <tr>
+                <td><?= $number++ ?></td>
+                <td><?= $namaLengkap ?></td>
+                <td><?= $keteranganMatkul ?></td>
+                <td><?= $nilaiUTS ?></td>
+                <td><?= $nilaiUAS ?></td>
+                <td><?= $nilaiPraktikum ?></td>
+                <td><?= $rerata?></td>
+                <td><?= $grade ?></td>
+                <td><?= $predikat ?></td>
+                <td><?= $kelulusan ?></td>
+            </tr>
             <?php } ?>
         </tbody>
     </table>
