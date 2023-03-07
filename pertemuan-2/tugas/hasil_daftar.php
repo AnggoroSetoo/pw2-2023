@@ -44,7 +44,6 @@
                         $email = $_POST['email'];
                         $alamat = $_POST['alamat'];
                         $telepon = $_POST['telepon'];
-
                         $number = 3;
                     ?>
 
