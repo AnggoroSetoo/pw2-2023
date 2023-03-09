@@ -10,10 +10,11 @@
 </head>
 
 <body>
-<div class="container mt-5">
+
+    <div class="container mt-5">
         <header role="banner">
             <h2>Student Activity Score - STTNF</h2>
             <a href="home.php">Home</a> | <a href="form_nilai.php">Form Nilai</a> | <a href="data_nilai.php">Data Nilai</a> | <a href="">Login</a>
             <hr />
         </header>
-</div>
+    </div>

@@ -8,7 +8,7 @@
 ?>
 
 
-<div class="container my-5">
+<div class="container my-5 mb-5">
     <h1 class="text-center mb-4">Form Nilai</h1>
     <form class="form-horizontal w-75 mt-5 mx-auto p-4 border shadow-sm" method="POST" action="data_nilai.php">
         <div class="container px-3">

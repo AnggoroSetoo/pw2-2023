@@ -33,20 +33,20 @@
 		* selain itu maka F
 		*/ 
 
-        if($rerata <= 100 ){
-            $grade = "A" ;
-            return $grade;
-        }elseif($rerata <= 84){
-            $grade = "B" ;
-            return $grade;
-        }elseif($rerata <= 69){
-            $grade = "C" ;
+        if($rerata <= 35){
+            $grade = "E" ;
             return $grade;
         }elseif($rerata <= 55){
             $grade = "D" ;
             return $grade;
-        }elseif($rerata <= 35){
-            $grade = "E" ;
+        }elseif($rerata <= 69){
+            $grade = "C" ;
+            return $grade;
+        }elseif($rerata <= 84){
+            $grade = "B" ;
+            return $grade;
+        }elseif($rerata <= 100 ){
+            $grade = "A" ;
             return $grade;
         }else{
             $grade = "F";

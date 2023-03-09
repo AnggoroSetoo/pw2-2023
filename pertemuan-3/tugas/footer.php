@@ -1,6 +1,6 @@
-<footer class="text-center py-3 bg-light mt-5">
+<footer class="text-center py-3 bg-light mt-5" style="position: fixed-bottom;">
         <p>Created by <a href="#">Anggoro Seto</a> &copy; <?php echo date('Y') ?></p>
-    </footer>
+</footer>
 </body>
 
 </html>
