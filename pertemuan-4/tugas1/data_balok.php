@@ -1,11 +1,5 @@
 <?php 
-		/**
-		 * Task 2
-		 * Panggil class_balok dan Buatlah minimal 4 object yang menampilkan:
-		 * Luas, Keliling dan Volume
-		 */
 
-		// code..
     require_once "class_balok.php";
 
     echo "Rumus Menghitung Balok";
