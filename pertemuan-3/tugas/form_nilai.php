@@ -1,9 +1,4 @@
 <?php 
-/**
-* Task 2
-* 1. Rapihkan form ini
-* 2. Gunakan method POST					
-*/
     include_once 'header.php';
 ?>
 

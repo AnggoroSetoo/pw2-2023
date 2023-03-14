@@ -22,8 +22,8 @@ include_once 'header.php';
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Fakhirul</td>
-                <td>Statistika dan Probabilitas</td>
+                <td>Fakhirul Akmal</td>
+                <td>Pemrograman Web 2</td>
                 <td>89</td>
                 <td>95</td>
                 <td>80</td>
@@ -34,7 +34,7 @@ include_once 'header.php';
             </tr>
             <tr>
                 <td>2</td>
-                <td>Rul</td>
+                <td>Chrsitine</td>
                 <td>Statistika dan Probabilitas</td>
                 <td>78</td>
                 <td>81</td>
@@ -46,13 +46,6 @@ include_once 'header.php';
             </tr>
 
             <?php
-            /**
-             * Task 3
-             * 1. Import libfungsi.php
-             * 2. Tampilkan data dalam bentuk table
-             * 3. Berikan error handling untuk mengatasi ketika form belum disubmit
-             * Note: Sesuaikan dengan isi table yang sudah ada						
-             */
 
             require_once 'libfungsi.php';
 
